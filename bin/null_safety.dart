@@ -42,6 +42,7 @@ void main(){
   // konsekuensinya data yang di konversi juga menjadi nullable atau harus di deklarasikan menjadi nullable 
 
   int? hasil;
+  // ignore: dead_code
   double? dataDouble = hasil?.toDouble();
 
   print(dataDouble);

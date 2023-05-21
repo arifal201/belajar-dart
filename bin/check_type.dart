@@ -9,6 +9,7 @@ void main(){
 
   print(check);
   print(check is String);
+  // ignore: unnecessary_type_check
   print(check is bool);
 
 }
