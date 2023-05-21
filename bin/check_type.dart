@@ -3,7 +3,8 @@ void main(){
 
   var variableInt = variable as int;
 
- print(variableInt);
+ var variableInt2 = variableInt;
+ print(variableInt2);
 
   var check = variableInt is int;
 
